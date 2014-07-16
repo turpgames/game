@@ -5,8 +5,8 @@ public class Main {
 		try {
 			ProjectCreator creator = new ProjectCreator();
 			
-			creator.setBaseDir("/Users/mehmet/Documents/code/github/turpgames");
-			creator.setProjectName("testgame"); // doubleup -> com.turpgames.doubleup
+			creator.setBaseDir("/Users/mehmet/Documents/code/github/turpgames"); // game projesinin bulundugu dizin
+			creator.setProjectName("testgame"); // doubleup -> doubleup-android | com.turpgames.doubleup
 			creator.setAppName("Test Game"); // Double Up
 			creator.setAppId("TestGame"); // DoubleUp
 			
